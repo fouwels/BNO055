@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BNO055", "BNO055-lib\BNO055.csproj", "{76472E82-D5AC-4EE2-896B-7DFB2D071C35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BNO055-sample", "BNO055-sample\BNO055-sample.csproj", "{9AC9B960-E441-4761-ACD1-A015E6D228D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76472E82-D5AC-4EE2-896B-7DFB2D071C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76472E82-D5AC-4EE2-896B-7DFB2D071C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76472E82-D5AC-4EE2-896B-7DFB2D071C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76472E82-D5AC-4EE2-896B-7DFB2D071C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC9B960-E441-4761-ACD1-A015E6D228D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC9B960-E441-4761-ACD1-A015E6D228D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC9B960-E441-4761-ACD1-A015E6D228D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC9B960-E441-4761-ACD1-A015E6D228D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40922120-5967-46C9-BC19-E0B2EB681360}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+namespace BNO055.Models {
+    public static class Mappings {
+        public enum bnoError : byte {
+            NONE = 0X00,
+            PERIPHERAL_INITIALIZATION_ERROR = 0X01,
+            SYSTEM_INITIALIZATION_ERROR = 0X02,
+            SELF_TEST_RESULT_FAILED = 0X03,
+            REGISTER_MAP_VALUE_OUT_OF_RANGE = 0X04,
+            REGISTER_MAP_ADDRESS_OUT_OF_RANGE = 0X05,
+            REGISTER_MAP_WRITE_ERROR = 0X06,
+            LOW_POWER_MODE_NOT_AVAILABLE_FOR_SELECTED_OP_MODE = 0X07,
+            ACCELEROMETER_POWER_MODE_NOT_AVAILABLE = 0X08,
+            FUSIONN_ALGORITHM_CONFIGURATION_ERROR = 0X09,
+            SENSOR_CONFIGURATION_ERROR = 0X0A
+        }
+    }
+}
