@@ -1,9 +1,9 @@
 # BNO055
-C# Software driver for the Bosch Sensortec BNO055.
+C# Software driver for the Bosch Sensortec BNO055. ([datasheet](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO055_DS000_14.pdf))
  
 Targets [.NET Standard 2.0](https://docs.microsoft.com/en-us/dotnet/standard/net-standard).
 
-BNO055 must be set to UART mode by pulling PS1 high (10k/3.3V).
+BNO055 must be set to UART mode by pulling PS1 high (10k).
  
 ## Installation
 Nuget: [https://www.nuget.org/packages/BNO055/](https://www.nuget.org/packages/BNO055/)
