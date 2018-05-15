@@ -33,7 +33,7 @@ async static Task Run()
 ```csharp
 async static Task Run()
 {
-	bno = new BNO055.BNODevice();
+	var bno = new BNO055.BNODevice();
 	await bno.Bootstrap("COM9");
 
 	int i = 2;
