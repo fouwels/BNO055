@@ -27,7 +27,12 @@ async static Task Run()
 	var ch = bno.connectionHealth;
 	var init = bno.initialized;
 
-	// Example
+}
+```
+## Example
+```csharp
+async static Task Run()
+{
 	bno = new BNO055.BNODevice();
 	await bno.Bootstrap("COM9");
 
