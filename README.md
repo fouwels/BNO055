@@ -1,7 +1,7 @@
 # BNO055
  C# software driver for the Bosch Sensortec BNO055
 
-``
+```
 async static Task Run()
 {
 	// Connect and initialize
@@ -52,4 +52,4 @@ async static Task Run()
 		i++;
 	}
 }
-``
+```
