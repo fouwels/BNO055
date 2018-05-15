@@ -1,5 +1,14 @@
 # BNO055
- C# software driver for the Bosch Sensortec BNO055
+C# Software driver for the Bosch Sensortec BNO055
+ 
+Targets [.NET Standard 2.0](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
+ 
+## Installation
+ ```powershell
+Install-Package Install-Package BNO055 -Version 1.0.1 
+ ```
+
+## Usage
 
 ```csharp
 async static Task Run()
