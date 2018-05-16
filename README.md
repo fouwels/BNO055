@@ -32,8 +32,8 @@ async static Task Run()
 	await bno.UpdatePosition();
 
 	// Read computed data values
-	var p = bno.position;
-	var c = bno.calibration;
+	Quaternion p = bno.position;
+	Calibration c = bno.calibration;
 
 	// Read properties
 	var ch = bno.connectionHealth;
