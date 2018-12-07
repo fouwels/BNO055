@@ -8,7 +8,7 @@ BNO055 must be set to UART mode by pulling PS1 high (10k).
 ## Installation
 Nuget: [https://www.nuget.org/packages/BNO055/](https://www.nuget.org/packages/BNO055/)
  ```powershell
-Install-Package Install-Package BNO055 -Version 1.0.1 
+Install-Package BNO055 -Version 1.0.1 
  ```
 
 ## Usage
